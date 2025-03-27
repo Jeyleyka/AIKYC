@@ -1,7 +1,7 @@
 #ifndef CONFIRMPAYMENT_H
 #define CONFIRMPAYMENT_H
 
-#include <links.h>
+#include <stdafx.h>
 
 class ConfirmPayment : public QDialog
 {

@@ -14,15 +14,16 @@ SOURCES += \
     confirmpayment.cpp \
     errorwindow.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    stdafx.cpp
 
 HEADERS += \
     activatewindow.h \
     buykeywindow.h \
     confirmpayment.h \
     errorwindow.h \
-    links.h \
-    mainwindow.h
+    mainwindow.h \
+    stdafx.h
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -30,4 +31,8 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 DISTFILES += \
+    build/6_6_0_mingw64_shard-Release/release/qr/QR.png \
     settings.json
+
+RESOURCES += \
+    img.qrc

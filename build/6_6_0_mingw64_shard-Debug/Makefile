@@ -370,7 +370,8 @@ Makefile: ../../AIKYC.pro ../../../../mingw64/qt5-static/share/qt5/mkspecs/win32
 		../../../../mingw64/qt5-static/lib/Qt5Gui.prl \
 		../../../../mingw64/qt5-static/lib/Qt5Core.prl \
 		../../../../mingw64/qt5-static/lib/qtmain.prl \
-		../../../../mingw64/qt5-static/share/qt5/mkspecs/features/build_pass.prf
+		../../../../mingw64/qt5-static/share/qt5/mkspecs/features/build_pass.prf \
+		../../img.qrc
 	$(QMAKE) -o Makefile ..\..\AIKYC.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
 ../../../../mingw64/qt5-static/share/qt5/mkspecs/features/spec_pre.prf:
 ../../../../mingw64/qt5-static/share/qt5/mkspecs/qdevice.pri:
@@ -673,6 +674,7 @@ Makefile: ../../AIKYC.pro ../../../../mingw64/qt5-static/share/qt5/mkspecs/win32
 ../../../../mingw64/qt5-static/lib/Qt5Core.prl:
 ../../../../mingw64/qt5-static/lib/qtmain.prl:
 ../../../../mingw64/qt5-static/share/qt5/mkspecs/features/build_pass.prf:
+../../img.qrc:
 qmake: FORCE
 	@$(QMAKE) -o Makefile ..\..\AIKYC.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
 

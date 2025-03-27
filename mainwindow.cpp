@@ -499,6 +499,7 @@ MainWindow::MainWindow(QWidget *parent)
         connect(btns[i], &QPushButton::clicked, this->errWindow, &ErrorWindow::show);
     }
 
+    // this->setWindowIcon(QIcon("../../icons/logo.png"));
     setFixedSize(1200, 800);
 }
 

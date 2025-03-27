@@ -37,7 +37,7 @@ void ActivateWindow::initBuyKeyContainer() {
 }
 
 void ActivateWindow::initWarningText() {
-    QJsonObject json = loadJsonFromFile("../../settings.json");
+    QJsonObject json = loadJsonFromFile(":/settings.json");
 
     this->warning = new QLabel(this);
     this->warning->setStyleSheet("color: #fff; font-weight: 500; margin-top: 15px; font-size: 11px;");

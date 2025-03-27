@@ -1,6 +1,6 @@
 #include "buykeywindow.h"
 
-QJsonObject json = ActivateWindow::loadJsonFromFile("../../settings.json");
+QJsonObject json = ActivateWindow::loadJsonFromFile(":/settings.json");
 
 QPushButton* BuyKeyWindow::createPriceButton(const QString& text, QWidget* parent) {
     QPushButton* button = new QPushButton(text, parent);
@@ -38,7 +38,7 @@ void BuyKeyWindow::initButtons() {
 
 void BuyKeyWindow::initQrAndRef() {
     this->qr = new QPushButton(this);
-    this->qr->setIcon(QIcon("../../icons/QR.png"));
+    this->qr->setIcon(QIcon(":/qr/QR.png"));
     this->qr->setIconSize(QSize(103, 101));
     this->qr->setStyleSheet("max-width: 103px; max-height: 101px; margin-top: 30px");
 

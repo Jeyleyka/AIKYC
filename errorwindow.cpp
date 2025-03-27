@@ -2,9 +2,9 @@
 
 void ErrorWindow::initWarningAndStr() {
     this->warning = new QPushButton;
-    this->warning->setIcon(QIcon("../../icons/warning.png"));
+    this->warning->setIcon(QIcon(":/icons/warning.png"));
     this->warning->setIconSize(QSize(32, 32));
-    this->warning->setStyleSheet("border-radius: 32px;");
+    this->warning->setStyleSheet("border-radius: 32px; width: 32px; height:32px;");
 
     this->string = new QLabel("License error! Activate your license to continue working", this);
     this->string->setStyleSheet("color: #fff; font-size: 15px; font-weight: 500;");

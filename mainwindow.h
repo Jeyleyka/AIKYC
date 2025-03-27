@@ -1,7 +1,7 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
-#include <links.h>
+#include <stdafx.h>
 #include <errorwindow.h>
 
 class MainWindow : public QMainWindow

@@ -1,7 +1,7 @@
 #ifndef ERRORWINDOW_H
 #define ERRORWINDOW_H
 
-#include <links.h>
+#include <stdafx.h>
 #include <activatewindow.h>
 
 class ErrorWindow : public QDialog

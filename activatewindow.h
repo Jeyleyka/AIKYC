@@ -1,7 +1,7 @@
 #ifndef ACTIVATEWINDOW_H
 #define ACTIVATEWINDOW_H
 
-#include <links.h>
+#include <stdafx.h>
 #include <buykeywindow.h>
 
 class ActivateWindow : public QDialog

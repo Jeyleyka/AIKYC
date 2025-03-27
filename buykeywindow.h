@@ -1,7 +1,7 @@
 #ifndef BUYKEYWINDOW_H
 #define BUYKEYWINDOW_H
 
-#include <links.h>
+#include <stdafx.h>
 #include <activatewindow.h>
 #include <confirmpayment.h>
 
